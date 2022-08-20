@@ -1,0 +1,20 @@
+Package: xkcd
+Title: About xkcd distribution
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yifei",
+           family = "Liu",
+           role = c("aut", "cre"),
+           email = "liu00980@umn.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package provides four basic functions for xkcd distribution: dxkcd, pxkcd, qxkcd, rxkcd.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stats
